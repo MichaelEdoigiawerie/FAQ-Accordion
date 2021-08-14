@@ -24,7 +24,7 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     background: linear-gradient(var(--sv), var(--sb)), var(--sv);
     font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
 }
@@ -119,9 +119,6 @@ p {
 
 /*Desktop Design*/
 @media only screen and (orientation: landscape) {
-    body {
-        align-items: center;
-    }
 
     h1 {
         text-align: left;
@@ -216,10 +213,6 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
     html {
         font-size: 80%;
-    }
-
-    body {
-        align-items: center;
     }
 
     .faq-container {
